@@ -39,17 +39,21 @@ while (b < 100) {
 
 var a=0;
     var b=0;
-    var temp=1;
-    console.log (a+++temp)
+    var resultado=1;
+    //console.log (a+++temp)
     do {    
 
         a=b;
-        b=temp;
-        temp=a+b;
-        console.log(temp);
+        b=resultado;
+        resultado=a+b;
+        if (resultado<2) {
+          console.log(resultado)
+        }
+       console.log(resultado);
+        
       
       
-    }while(temp<1000);
+    }while(resultado<1000);
    
    
      
